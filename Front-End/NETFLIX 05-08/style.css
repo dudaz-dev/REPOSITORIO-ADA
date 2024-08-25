@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-family: 62, 5%;
+  --red: #ff1616;
+  --black: #070707;
+  --white: #fff;
+  --font: Arial, Helvetica, sans-serif;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: var(--font);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.background {
+  background-image: url(img/netflix.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+}
+
+.logo {
+  height: 3.5rem;
+  padding-left: 30px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.sessaoEsquerda {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 20px 50px;
+  margin: 30px 0;
+  gap: 32px;
+}
+
+.title {
+  color: var(--red);
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+  padding-left: 1.5rem;
+}
+
+.button {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 8px 16px;
+  color: var(--white);
+  cursor: pointer;
+
+  background-color: var(--red);
+  border: solid 2px var(--red);
+}
+
+.buttonOutline {
+  background-color: transparent;
+  border: solid 2px var(--white);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  font-size: 1rem;
+  color: #fff;
+  justify-items: center;
+  padding-left: 100px;
+
+  span {
+    padding-left: 1rem;
+  }
+}
