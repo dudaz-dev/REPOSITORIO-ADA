@@ -13,7 +13,7 @@ Conteúdo: Estrutura básica de uma página HTML, criação e estilização de e
 
 <h3>Lógica de Programação</h3>
 
-<p>Status: Está sendo cursado.<br>
+<p>Status: Módulo Concluído.<br>
 Conteúdo: Fundamentos de lógica de programação, funções, loops e condicionais, resolução de problemas.</p>
 
 <h3>Programação Orientada a Objetos (POO)</h3>
